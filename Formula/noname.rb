@@ -1,28 +1,28 @@
 class Noname < Formula
   desc "Calm, beautiful terminal front end for Claude Code"
   homepage "https://github.com/Silvertree2010/noname"
-  version "0.1.2"
+  version "0.1.3"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
       url "https://github.com/Silvertree2010/noname/releases/download/v#{version}/noname-aarch64-apple-darwin.tar.gz"
-      sha256 "952d3135afb9b54d9fb9be651657251934830e3a5b1e5348786107d2da03e6e4"
+      sha256 "1e728691fa5aa7b7c4f831feda5ae4fe475d1f6528849955b662fa5453d34fde"
     end
     on_intel do
       url "https://github.com/Silvertree2010/noname/releases/download/v#{version}/noname-x86_64-apple-darwin.tar.gz"
-      sha256 "9e96cc26eb5dfb3615b7f6eec7672686e940282f5c9b605dc90066c0c958c40c"
+      sha256 "4eb1c2f200068a14f9141596e711d1e54846bad5f53fdf7d8f08b4f0a66783de"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Silvertree2010/noname/releases/download/v#{version}/noname-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "b958da0a2ff741a0c71769a1a6b63aa348b387e6200da6d28880e5bee589360b"
+      sha256 "75301eb3ddae44246ffdcae7d0e20ce4abcb471d8273f3de3156f2b862041885"
     end
     on_intel do
       url "https://github.com/Silvertree2010/noname/releases/download/v#{version}/noname-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "43be1b79ed0325c42424e032aa58418fd26bd3010e989125d65c02412c416bfe"
+      sha256 "26ef07030caf469df6109519bcdf00bb309ba1bf3d29e0f57d04a56bb1a4d776"
     end
   end
 
